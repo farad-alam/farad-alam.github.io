@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a192f;
+    color: #8892b0;
+}
+
+h1 span,
+.text-primary {
+    color: #64ffda;
+}
+
+a.text-primary:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #64ffda;
+}
+
+.navbar-nav .nav-link {
+    color: #8892b0;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #64ffda;
+}
+
+header {
+    background-color: #112240;
+}
+
+footer {
+    background-color:#0a192f;
+        color: #8892b0;
+    }
+footer p {
+    margin: 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a.btn-outline-primary {
+    color: #64ffda;
+    border-color: #64ffda;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+a.btn-outline-primary:hover {
+    background-color: #64ffda;
+    color: #0a192f;
+    border-color: #64ffda;
+}
+
+h2 {
+    color: #ccd6f6;
+}
+
+h5 {
+    color: #8892b0;
+}
+
+p,
+a {
+    color: #8892b0;
+}
+
+#skills h5 {
+    font-weight: bold;
+}
+
+#contact a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
