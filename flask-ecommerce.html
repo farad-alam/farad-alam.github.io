@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flask E-commerce Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"> <!-- Assuming you're using the same CSS -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Farad Alam</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+    <h1 class="text-center">Flask E-commerce Platform</h1>
+    <p class="">
+        <!-- <strong>Live Demo:</strong> <a href="YOUR_LIVE_DEMO_LINK" target="_blank">Demo Link</a> |  -->
+        <strong>GitHub Repository:</strong> <a href="https://github.com/farad-alam/Flask-Ecommerce" target="_blank">GitHub Link</a>
+    </p>
+
+    <div class="mt-5">
+        <h2>Challenges I Faced</h2>
+        <ul>
+            <li><strong>User Authentication and Security:</strong> Ensuring user data security with features like password hashing, secure authentication, and email verification.</li>
+            <li><strong>Product Handling:</strong> Creating a scalable system to manage products, including adding images, updating details, and ensuring the user interface remained intuitive.</li>
+            <li><strong>Payment Integration:</strong> Implementing a seamless and secure payment system that handles multiple payment methods using Stripe.</li>
+            <li><strong>Order Management:</strong> Developing an efficient order placement and tracking system to keep the user's shopping experience smooth and transparent.</li>
+            <li><strong>Deployment:</strong> Deploying the application on a cloud platform (Render) while ensuring scalability and handling potential deployment-related issues like database migrations.</li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <h2>How I Solved It</h2>
+        <ul>
+            <li><strong>User Authentication and Security:</strong> Implemented a secure authentication system using password hashing and JWT-based token authentication. Email verification was set up to ensure user authenticity, along with a password reset feature.</li>
+            <li><strong>Product Handling:</strong> Designed scalable product management models using SQLAlchemy, with image management for efficient upload and display.</li>
+            <li><strong>Payment Integration:</strong> Integrated Stripe API to securely handle payments, including saving user payment methods for future use.</li>
+            <li><strong>Order Management:</strong> Automatically place and track orders post-payment, allowing users to manage their purchases through a custom dashboard.</li>
+            <li><strong>Deployment:</strong> Deployed the app to Render, handling database migrations and scaling to meet user traffic demands.</li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>User Management:</strong>
+                <ul>
+                    <li>📝 Email-based registration with verification</li>
+                    <li>🔐 Secure user authentication and password reset</li>
+                    <li>📧 Automated welcome emails for new users</li>
+                    <li>👤 User profile management for easy updates</li>
+                </ul>
+            </li>
+            <li><strong>Product Handling:</strong>
+                <ul>
+                    <li>🛍️ Product creation with title, images, descriptions, and prices</li>
+                    <li>🔄 Update and delete product functionality</li>
+                    <li>🔍 Product search feature for user convenience</li>
+                </ul>
+            </li>
+            <li><strong>Payment Processing:</strong>
+                <ul>
+                    <li>💳 Stripe integration for secure payments</li>
+                    <li>💾 Save payment methods for faster future transactions</li>
+                </ul>
+            </li>
+            <li><strong>Order Management:</strong>
+                <ul>
+                    <li>🛒 Automatic order placement post-payment</li>
+                    <li>📊 User dashboard to track placed orders and view order history</li>
+                </ul>
+            </li>
+            <li><strong>Other Features:</strong>
+                <ul>
+                    <li>⚙️ Admin dashboard for product and order management</li>
+                    <li>🔗 SEO-friendly URL structure for product pages</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><strong>Backend:</strong> Flask, SQLAlchemy</li>
+            <li><strong>Database:</strong> PostgreSQL</li>
+            <li><strong>Authentication:</strong>Flask-Security</li>
+            <li><strong>Payment Gateway:</strong> Stripe API</li>
+            <li><strong>Frontend:</strong> HTML5, Bootstrap</li>
+            <li><strong>Deployment:</strong> Render, Docker</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <h2>Screenshots</h2>
+        <ul>
+            <li>User Registration Page</li>
+            <li>Product Page with Search</li>
+            <li>Order Dashboard</li>
+        </ul>
+    </div>
+</div>
+
+
+    <footer class="bg-dark text-center text-white py-3 mt-5">
+        <p>&copy; 2024 Farad Alam</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

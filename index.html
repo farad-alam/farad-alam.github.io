@@ -10,6 +10,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -47,7 +48,6 @@
             <h1 class="display-4">Hi, I'm <span class="text-primary">Farad Alam</span></h1>
             <p class="lead">A passionate Django & Flask Developer</p>
             <a href="#projects" class="btn btn-outline-primary">View My Work</a>
-            <a href="/project.html">Project</a>
         </div>
     </header>
 
@@ -64,8 +64,8 @@
                     eager to learn new technologies and take on exciting projects that challenge me to grow
                     professionally.</p>
             </div>
-            <div class="col-lg-6">
-                <img src="https://avatars.githubusercontent.com/u/103895201?v=4" alt="Farad Alam Foisal" class="img-fluid rounded-circle">
+            <div class="col-lg-6 text-center">
+                <img id="pro-img" src="https://avatars.githubusercontent.com/u/103895201?v=4" alt="Farad Alam Foisal" class="img-fluid rounded-circle">
             </div>
         </div>
     </section>
@@ -81,8 +81,7 @@
                         <h5 class="card-title">Django Multivendor Ecommerce</h5>
                         <p class="card-text">A fully functional multivendor e-commerce platform built with Django. This
                             project includes user authentication, product management, and payment integration.</p>
-                        <a href="https://github.com/farad-alam/Multi-Vendor-Ecommerce" target="_blank"
-                            class="btn btn-outline-primary">View on GitHub</a>
+                        <a href="multivendor-ecommerce.html" target="_blank" class="btn btn-outline-primary">View Details</a>
                     </div>
                 </div>
             </div>
@@ -93,8 +92,8 @@
                         <h5 class="card-title">Flask Ecommerce with Stripe</h5>
                         <p class="card-text">An e-commerce application built with Flask, featuring Stripe payment
                             integration, user authentication, and a product management system.</p>
-                        <a href="https://github.com/farad-alam/Flask-Ecommerce" target="_blank"
-                            class="btn btn-outline-primary">View on GitHub</a>
+                        <a href="/flask-ecommerce.html" target="_blank"
+                            class="btn btn-outline-primary">View Details</a>
                     </div>
                 </div>
             </div>
@@ -105,8 +104,8 @@
                         <h5 class="card-title">Django To-Do REST API</h5>
                         <p class="card-text">A RESTful API for task management, built with Django REST Framework. It
                             allows CRUD operations, user authentication, and task filtering and sorting.</p>
-                        <a href="https://github.com/farad-alam/Django-ToDo-REST-API" target="_blank"
-                            class="btn btn-outline-primary">View on GitHub</a>
+                        <a href="/task-management-api.html" target="_blank"
+                            class="btn btn-outline-primary">View Details</a>
                     </div>
                 </div>
             </div>
@@ -151,15 +150,27 @@
         <h2 class="text-center mb-4">Contact</h2>
         <div class="text-center">
             <p>If you'd like to discuss a project or just want to say hi, feel free to reach out!</p>
-            <p><strong>Email:</strong> <a href="mailto:farad.dev@gmail.com" class="text-primary">farad.dev@gmail.com</a>
+    
+            <p>
+                <a href="mailto:farad.dev@gmail.com" target="_blank" class="text-primary">
+                    <i class="fas fa-envelope"> </i> Email
+                </a>
             </p>
-            
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/farad-alam-foisal/" target="_blank"
-                    class="text-primary">Farad Alam</a></p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/farad-alam" target="_blank"
-                    class="text-primary">github.com/farad-alam</a></p>
+    
+            <p>
+                <a href="https://www.linkedin.com/in/farad-alam-foisal/" target="_blank" class="text-primary">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </p>
+    
+            <p>
+                <a href="https://github.com/farad-alam" target="_blank" class="text-primary">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </p>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="text-center py-3">

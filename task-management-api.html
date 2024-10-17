@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management REST API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"> <!-- Assuming you're using the same CSS -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Farad Alam</a>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center">Task Management REST API</h1>
+
+        <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+                <!-- <p><strong>Project URL:</strong> <a href="https://live-demo-link.com" target="_blank">Live Demo</a></p> -->
+                <p><strong>GitHub Repository:</strong> <a href="https://github.com/farad-alam/Django-ToDo-REST-API"
+                        target="_blank">GitHub Link</a></p>
+            </div>
+        </div>
+        
+        <h3 class="mt-5">Challenges I Faced</h3>
+        <p>Developing a robust Task Management API involved several key challenges:</p>
+        <ul>
+            <li><strong>Secure User Authentication:</strong> Ensuring that only authenticated users could access and
+                manage their tasks.</li>
+            <li><strong>Efficient Task Management:</strong> Implementing a system that allows users to filter and sort
+                tasks based on multiple parameters such as deadline, priority, and status.</li>
+            <li><strong>Scalable Architecture:</strong> Designing the API to handle large task datasets efficiently and
+                ensuring smooth performance across CRUD operations.</li>
+            <li><strong>API Documentation:</strong> Providing clear and interactive API documentation that allows users
+                and developers to easily test and understand the endpoints.</li>
+        </ul>
+
+        <h3 class="mt-5">How I Solved It</h3>
+        <ul>
+            <li><strong>Secure User Authentication:</strong> I implemented JWT (JSON Web Token) authentication to
+                securely manage user sessions. This allows for stateless, scalable authentication, providing users with
+                token-based access to the API.</li>
+            <li><strong>Efficient Task Management:</strong> Using Django REST Framework’s filtering and pagination
+                capabilities, I allowed users to filter tasks by deadline, priority, and status. Sorting options were
+                implemented to enable users to organize tasks effectively.</li>
+            <li><strong>Scalable Architecture:</strong> To handle potentially large task datasets, I optimized the API
+                using pagination and efficient database querying. This approach ensures fast response times even as the
+                number of tasks grows.</li>
+            <li><strong>API Documentation:</strong> I integrated Swagger to automatically generate interactive API
+                documentation. This made the API easy to explore, test, and understand for developers, enhancing its
+                usability.</li>
+        </ul>
+
+        <h3 class="mt-5">Key Features</h3>
+        <ul>
+            <li><strong>User Authentication:</strong> Secure JWT-based authentication for registering, logging in, and
+                accessing tasks.</li>
+            <li><strong>Task CRUD Operations:</strong> Full support for creating, reading, updating, and deleting tasks.
+            </li>
+            <li><strong>Task Filtering and Sorting:</strong> Users can filter tasks by deadline, priority, and status,
+                and sort tasks to enhance organization.</li>
+            <li><strong>JWT Token Management:</strong> Token-based authentication system with support for token
+                refreshing and secure access to protected routes.</li>
+            <li><strong>API Documentation:</strong> Interactive API documentation with Swagger for easy exploration of
+                endpoints.</li>
+        </ul>
+
+        <h3 class="mt-5">Technologies Used</h3>
+        <ul>
+            <li><strong>Backend:</strong> Django</li>
+            <li><strong>API Framework:</strong> Django REST Framework (DRF)</li>
+            <li><strong>Database:</strong> PostgreSQL</li>
+            <li><strong>Authentication:</strong> JWT (JSON Web Token) with djangorestframework-simplejwt</li>
+            <li><strong>API Documentation:</strong> Swagger, Postman</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+            <!-- <li><strong>Deployment:</strong> Docker (if applicable)</li> -->
+        </ul>
+
+        <h3 class="mt-5">Screenshots</h3>
+        <p><strong>Swagger Documentation Page:</strong></p>
+        <!-- Add screenshot images here if needed -->
+    </div>
+
+        <footer class="bg-dark text-center text-white py-3 mt-5">
+            <p>&copy; 2024 Farad Alam</p>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
